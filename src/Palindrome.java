@@ -24,7 +24,7 @@ public class Palindrome {
 
         // Reverse and compare for palindrome
         Node root2 = reverse(root);
-        System.out.println(compare(root, root2));
+        System.out.println("\n"+compare(root, root2));
     }
 
     public static Node reverse(Node root) {
